@@ -1,0 +1,151 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Anthony Baptista
+  given: Anthony
+  family: Baptista
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "🔬"
+role: Senior Postdoctoral Research Fellow
+bio: |
+  I am a Senior Postdoctoral Research Fellow in Cancer Bioinformatics at [King's College London](https://www.kcl.ac.uk/),
+  working in the [Grigoriadis group](https://www.kcl.ac.uk/people/anita-grigoriadis) within the School of Cancer & Pharmaceutical Sciences.
+  My research sits at the intersection of spatial transcriptomics, graph theory, explainable AI,
+  and tumour microenvironment biology, with a focus on breast and liver cancer.
+  I co-lead the [KCL Spatial Biology Facility](https://www.kcl.ac.uk/research/facilities/the-spatial-biology-facility)
+  and co-organise the [Alan Turing Interest Group on Topology and Geometry for Data](https://www.turing.ac.uk/research/interest-groups/topology-and-geometry-data).
+
+affiliations:
+  - name: King's College London
+    url: https://www.kcl.ac.uk/
+  - name: The Alan Turing Institute
+    url: https://www.turing.ac.uk/
+
+links:
+  - icon: at-symbol
+    url: mailto:anthony.baptista@kcl.ac.uk
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/anthbapt
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/anthony-baptista-54316b152/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=E6CQXvwAAAAJ&hl=fr&inst=15159612047463182172&oi=ao
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-8514-0250
+
+interests:
+  - Spatial Biology
+  - Multimodal Data Integration
+  - Biological Networks & Cancer
+  - Multilayer & Higher-order Networks
+  - Network Embedding & Random Walks
+  - Topological Data Analysis & Differential Geometry
+  - Geometric Deep Learning & Explainable AI
+
+experience:
+  - role: Senior Postdoctoral Research Fellow — Cancer Bioinformatics
+    org: King's College London
+    start: '2024'
+    end: ''
+    summary: |
+      School of Cancer & Pharmaceutical Sciences, Faculty of Life Sciences and Medicine.
+      Working on multimodal integration within spatial transcriptomics, explainable AI, and
+      higher-order interactions in biological networks. Collaborating with Anita Grigoriadis (KCL)
+      and Christopher Banerji (KCL, UCL, Turing Institute).
+      Co-lead of the KCL Spatial Biology Facility.
+      Co-organiser of the Alan Turing Interest Group on Topology and Geometry for Data.
+      Co-creator of Startup Scianno-Mosaics (University of Colorado – Boulder).
+  - role: Postdoctoral Research Assistant
+    org: Queen Mary University of London & The Alan Turing Institute
+    start: '2022'
+    end: '2024'
+    summary: |
+      School of Mathematical Sciences. Project: "Learning from data with structured missingness"
+      (Turing–Roche partnership). Collaborating with Ginestra Bianconi (QMUL),
+      Ruben Sanchez-Garcia (University of Southampton), and Roche-Genentech.
+  - role: PhD Researcher in Biomathematics and Complex Systems
+    org: Aix-Marseille University
+    start: '2019'
+    end: '2022'
+    summary: |
+      MMG U1251 and TAGC U1090. Developed new formalism of random walk with restart on
+      multilayer networks. Created the MultiXrank Python package. Applications in gene-disease
+      associations, comorbidities, and 3D DNA conformation networks.
+
+skills:
+  - name: Computational
+    items:
+      - label: Python, R, Julia, Matlab, C, Fortran
+        level: 5
+      - label: Spatial Omics (Xenium, CosMx, GeoMx, MERFISH)
+        level: 5
+      - label: Graph ML / Network Science
+        level: 5
+      - label: Single-cell Analysis (Scanpy, CellTypist)
+        level: 5
+      - label: AI Methods & GPU Optimisation
+        level: 4
+      - label: Software Packaging (GitHub, Docker, Conda, PyPI, Snakemake)
+        level: 4
+  - name: Research & Leadership
+    items:
+      - label: Scientific Writing & Peer Review
+        level: 5
+      - label: Grant Writing & Project Management
+        level: 4
+      - label: Conference Presentations
+        level: 5
+      - label: Student Supervision (BSc, MSc, PhD)
+        level: 5
+      - label: Event & Workshop Organisation
+        level: 5
+
+languages:
+  - name: French
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: Fluent
+  - name: Spanish
+    level: 3
+    label: Working knowledge
+
+awards:
+  - title: Flexible Fund – DisCouRSE SpatiaLondon Network
+    awarder: DisCouRSE Network Plus Programme
+    date: "2026-01-01"
+    summary: "£10,000 for the SpatiaLondon Network project. Co-investigators: Alessandra Vigilante, Nik Matthews, Maria Del Pilar Acedo Nunez, Francesca Ciccarelli, Ines Sequeira."
+    icon: hero/trophy
+  - title: School of Cancer & Pharmaceutical Sciences Annual Symposium Poster Prize
+    awarder: King's College London
+    date: "2025-05-06"
+    summary: "£500 award for best poster at the Annual Symposium."
+    icon: hero/trophy
+  - title: Wellcome Trust Early Career Award – Fellowship Application
+    awarder: Wellcome Trust
+    date: "2025-01-01"
+    summary: "SPACE – Spatial biology, statistical Physics, and explainable AI for Cancer deciphering Enhancement."
+    icon: hero/academic-cap
+  - title: OpnMe Innovation Grant – Boehringer Ingelheim
+    awarder: Boehringer Ingelheim (Co-Investigator with Prof. Grigoriadis, KCL)
+    date: "2024-01-01"
+    summary: "£80,000. Project: spatial transcriptomics characterisation of tertiary lymphoid structure (TLS) maturity in TNBC to identify biomarkers of lymphoid aggregate progression."
+    icon: hero/trophy
+  - title: 1st Position – Theory and Methods Challenge Fortnights Call
+    awarder: The Alan Turing Institute
+    date: "2024-01-01"
+    summary: "£30,000 funding for organising the workshop: Geometry-Informed Data Representations."
+    icon: hero/trophy
+  - title: International PhD Fellowship CENTURI
+    awarder: Turing Centre for Living Systems, Aix-Marseille University
+    date: "2019-01-01"
+    summary: "3 years funding for PhD research in Biomathematics and Complex Systems."
+    icon: hero/academic-cap
